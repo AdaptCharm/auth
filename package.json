@@ -1,0 +1,27 @@
+{
+  "name": "@adaptcharm/auth",
+  "description": "Manages users & login sessions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jamie Isaksen",
+    "email": "jamie@jamie.no"
+  },
+  "license": "UNLICENSED",
+  "main": "auth.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+      "url": "git@github.com:AdaptCharm/auth.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "argon2": "^0.23.0",
+    "is_js": "^0.9.0",
+    "ms": "^2.1.2",
+    "nanoid": "^2.0.3",
+    "ua-parser-js": "^0.7.19"
+  }
+}
